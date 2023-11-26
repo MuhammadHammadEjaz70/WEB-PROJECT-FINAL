@@ -25,7 +25,7 @@ const SingleProduct = (props) => {
               variant="contained"
               color="primary"
               onClick={(e) => {
-                console.log("navigate to update");
+                 
                 navigate("/products/update/" + product._id);
               }}
             >
